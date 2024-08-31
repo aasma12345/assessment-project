@@ -112,6 +112,8 @@
   text-decoration: none;
   color: #1F1E1C;
   background-color: #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+  border-radius: 4%;
   font-family: Inter;
   font-size: 18px;
   text-align: center;
