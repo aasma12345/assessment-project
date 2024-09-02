@@ -35,7 +35,7 @@ function Headerpage() {
                     </div>
                 </div>
                 <div className="sumbit-button-div">
-                    <a href="/" className='submit-button'>Submit</a>
+                    <a href="/submission" className='submit-button'>Submit</a>
                 </div>
             </div>
         </>
