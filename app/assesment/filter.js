@@ -24,7 +24,15 @@ const Filter = () => {
             </div>
             <div className="mob-only">
                 <div className="mob-filter">
-                    
+                    <div className="filter-button">
+                        <div className="filter-line">
+                            <div className="line one"></div>
+                            <div className="line two"></div>
+                            <div className="line three"></div>
+                        </div>
+                        <div className="filter-text">filter</div>
+                    </div>
+
                 </div>
             </div>
         </>
