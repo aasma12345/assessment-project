@@ -1,0 +1,32 @@
+.score-form {
+    width: 625px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.score-div {
+    display: flex;
+    width: 625px;
+    height: 165px;
+    border-radius: 12px;
+    border: 1px solid  #8F887C;
+    background: #4C4B49;
+    align-items: center;
+    justify-content: space-between;
+}
+.total{
+    width: 84px;
+    border:1px solid black;
+    height: 65px;
+}
+.scores{
+    width: 406px;
+    height: 58px;
+    border: 1px solid black;
+}
+/* .unattempt{
+    width: 84px;
+    border:1px solid black;
+    height: 65px;
+} */

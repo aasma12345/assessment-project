@@ -1,0 +1,114 @@
+.form-page {
+    width: 705px;
+    height: 516px;
+    margin: auto;
+    background: #F9F7F2;
+    margin-top: 103px;
+    margin-bottom: 428px;
+}
+@media (max-width: 576px){
+    .form-page{
+        width: 320px;
+        height: 422px;
+        margin-bottom: 75px;
+    }
+}
+
+
+.submission-form {
+    width: 320px;
+    height: 140px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 22px;
+}
+
+.img-tick {
+    width: 30px;
+    margin: auto;
+}
+
+.tick-img {
+    margin-top: 65px;
+}
+@media (max-width: 576px){
+    .tick-img{
+        margin-top: 60px;
+    }
+    .submission-form{
+        margin-top: 29px;
+    }
+}
+
+.sub-text {
+    width: 275px;
+    margin: auto;
+    /* border: 1px solid black; */
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.subm-text {
+    margin-top: 36px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.submi-text {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 12px;
+    padding-left: 13px;
+
+}
+
+.submission-button-div {
+    width: 222px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+    margin: auto;
+    margin-top: 98px;
+
+}
+@media (max-width: 576px){
+    .submission-button-div{
+        margin-top: 50px;
+    }
+}
+
+.submission-button {
+    text-decoration: none;
+    color:  #1F1E1C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div{
+    margin: auto;
+    width: 320px;
+    justify-content: center;  /* Center horizontally */
+    align-items: center; 
+   
+}

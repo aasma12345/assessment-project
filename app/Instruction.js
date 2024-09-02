@@ -30,7 +30,7 @@ const Instructions = () => {
                 </div>
                 <hr className='border-top'></hr>
                 <div className='button-div'>
-                    <a href="/assesment" className='start-button'>Let's Start!</a>
+                    <a href="/assesment" className='start-button'>Lets Start!</a>
                 </div>
             </div>
 
