@@ -3,10 +3,17 @@
     width: 100%;
 }
 
+@media (max-width:576px) {
+    .container-div {
+        width: 360px;
+    }
+}
+
 
 .headerrow {
     /* border: 1px solid black; */
     background: #FCFAFA;
+
 }
 
 .header-box {
@@ -545,29 +552,32 @@
         background: #FCFAFA;
         align-items: center;
         justify-content: center;
-        margin-left:230px;
-        
+        margin-left: 237px;
+
     }
-    
+
 
     .line {
         margin: auto;
         border-top: 3px solid #777671;
         margin-top: 3px;
     }
-    .one{
+
+    git .one {
         margin-top: 0px;
         width: 16px;
     }
-    .two{
-        width:13px;
+
+    .two {
+        width: 13px;
     }
-    .three{
+
+    .three {
         width: 10px;
     }
 
     .filter-text {
-        color:  #4C4B49;
+        color: #4C4B49;
         font-family: "Inria Sans";
         font-size: 16px;
         font-style: normal;
@@ -576,10 +586,6 @@
         text-transform: uppercase;
         margin-left: 12px;
     }
-
-
-
-
 }
 
 .dot {
