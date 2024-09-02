@@ -1,3 +1,4 @@
+
 const Filter = () => {
     return (
         <>
@@ -22,9 +23,8 @@ const Filter = () => {
                 </div>
             </div>
             <div className="mob-only">
-                <div className="filter">outerdiv
-                    <div className="filter-div">innerdiv
-                    </div>
+                <div className="mob-filter">
+                    
                 </div>
             </div>
         </>

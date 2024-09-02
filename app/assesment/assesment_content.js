@@ -5,6 +5,7 @@ const Content = () => {
     return (
         <div className="content-box">
             <Filter />
+            <Timers />
             <div className="questions">
                 <Container />
                 <Container />
@@ -12,7 +13,7 @@ const Content = () => {
                 <Container />
                 <Container />
             </div>
-            <Timers />
+            {/* <Timers /> */}
         </div>
     )
 }

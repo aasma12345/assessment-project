@@ -12,7 +12,7 @@ function Headerpage() {
                     <div className='table'>
                         <Pagination />
                     </div>
-                    <div className="sumbit-button-div -only">
+                    <div className="sumbit-button-div">
                         <a href="/" className='submit-button'>Submit</a>
                     </div>
 
@@ -33,6 +33,9 @@ function Headerpage() {
                             <Pagination />
                         </div>
                     </div>
+                </div>
+                <div className="sumbit-button-div">
+                    <a href="/" className='submit-button'>Submit</a>
                 </div>
             </div>
         </>
