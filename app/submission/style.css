@@ -6,8 +6,9 @@
     margin-top: 103px;
     margin-bottom: 428px;
 }
-@media (max-width: 576px){
-    .form-page{
+
+@media (max-width: 576px) {
+    .form-page {
         width: 320px;
         height: 422px;
         margin-bottom: 75px;
@@ -31,11 +32,13 @@
 .tick-img {
     margin-top: 65px;
 }
-@media (max-width: 576px){
-    .tick-img{
+
+@media (max-width: 576px) {
+    .tick-img {
         margin-top: 60px;
     }
-    .submission-form{
+
+    .submission-form {
         margin-top: 29px;
     }
 }
@@ -76,6 +79,13 @@
 
 }
 
+@media (max-width: 576px) {
+    .submi-text {
+        padding-left: 13px;
+    }
+}
+
+
 .submission-button-div {
     width: 222px;
     height: 54px;
@@ -90,25 +100,28 @@
     margin-top: 98px;
 
 }
-@media (max-width: 576px){
-    .submission-button-div{
+
+@media (max-width: 576px) {
+    .submission-button-div {
         margin-top: 50px;
     }
 }
 
 .submission-button {
     text-decoration: none;
-    color:  #1F1E1C;
+    color: #1F1E1C;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.div{
+
+.div {
     margin: auto;
     width: 320px;
-    justify-content: center;  /* Center horizontally */
-    align-items: center; 
-   
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+
 }
