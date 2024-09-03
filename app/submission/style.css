@@ -81,7 +81,7 @@
 
 @media (max-width: 576px) {
     .submi-text {
-        padding-left: 13px;
+        padding-left: 15px;
     }
 }
 
@@ -120,8 +120,8 @@
 .div {
     margin: auto;
     width: 320px;
+
     justify-content: center;
     /* Center horizontally */
     align-items: center;
-
 }
