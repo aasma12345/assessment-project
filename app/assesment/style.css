@@ -1,12 +1,6 @@
-.container-div{
-    background:#EBE9E6 ;
-    border: 1px solid black;
-    margin: auto;
+body{
+    background: #EBE9E6;
 }
-.container{
-    background:#EBE9E6 ;
-}
-
 .headerrow {
     background: #FCFAFA;
     border: 1px solid black;
