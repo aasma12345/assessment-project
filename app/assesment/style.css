@@ -1,10 +1,10 @@
 body{
     background: #EBE9E6;
+    margin: 0px;
 }
 .headerrow {
     background: #FCFAFA;
-    border: 1px solid black;
-    width: 1200px;
+    /* border: 1px solid black; */
     margin: auto;
 
 
@@ -12,8 +12,8 @@ body{
 
 .header-box {
     display: flex;
-    /* width: 1200px; */
-    border: 1px solid black;
+    width: 1200px;
+    /* border: 1px solid black; */
     margin: auto;
     text-align: center;
 }
@@ -21,20 +21,19 @@ body{
 @media (max-width:576px) {
     .header-box {
         display: block;
+        width: 360px;
         text-align: center;
         border: none;
+        height: 146px;
     }
-    .headerrow{
-        width: 360px;
-        border: 1px solid black;
-    }
+    
 }
 
 
 
 .header {
     width: 1200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logo-text {
@@ -185,7 +184,7 @@ body{
     margin: auto;
     margin-bottom: 136px;
     position: relative;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 @media (max-width: 576px) {
@@ -194,7 +193,7 @@ body{
         width: 360px;
         position: relative;
         margin: auto;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin-bottom: 259px;
 
     }
@@ -491,7 +490,7 @@ body{
     .mob-filter {
         display: flex;
         height: 181px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         position: relative;
         align-items: center;
         justify-content: center;

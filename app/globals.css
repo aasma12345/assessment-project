@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+}
+
 .header-row {
   height: 70px;
   /* margin: auto; */
@@ -165,7 +169,6 @@
   .instruction-container {
     width: 320px;
     height: 750px;
-    border: 1px solid black;
     margin: auto;
     margin-top: 34px;
     margin-bottom: 80px;
@@ -186,6 +189,7 @@
   .inside-div {
     padding-left: 20px;
     padding-right: 20px;
+
 
   }
 
@@ -218,7 +222,6 @@
   }
 
   .table {
-    border: 1px solid black;
     align-items: center;
     margin-left: 0px;
     align-items: center;
