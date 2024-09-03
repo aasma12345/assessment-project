@@ -1,17 +1,25 @@
-.container-div {
+.container-div{
+    background:#EBE9E6 ;
+    border: 1px solid black;
     margin: auto;
-    background: #EBE9E6;
+}
+.container{
+    background:#EBE9E6 ;
 }
 
 .headerrow {
     background: #FCFAFA;
+    border: 1px solid black;
+    width: 1200px;
+    margin: auto;
+
 
 }
 
 .header-box {
     display: flex;
-    width: 1200px;
-    /* border: 1px solid black; */
+    /* width: 1200px; */
+    border: 1px solid black;
     margin: auto;
     text-align: center;
 }
@@ -19,19 +27,20 @@
 @media (max-width:576px) {
     .header-box {
         display: block;
-        width: 360px;
-        height: 146px;
-        margin: auto;
         text-align: center;
         border: none;
     }
+    .headerrow{
+        width: 360px;
+        border: 1px solid black;
+    }
 }
 
-/* header-box */
+
 
 .header {
     width: 1200px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .logo-text {
@@ -64,10 +73,12 @@
 
 @media (max-width:576px) {
     .pagination {
-        width: 360px;
+        display: flex;
+        width: 320px;
         /* border: 1px solid black; */
         justify-content: center;
         text-align: center;
+    
     }
 }
 
@@ -81,11 +92,13 @@
 
 @media (max-width: 576px) {
     .table {
-        width: 360px;
+        display: flex;
+        width: 320px;
         border: none;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 24px;
+        align-items: center;
     }
 }
 
@@ -114,7 +127,7 @@
     .pageNo {
         justify-content: center;
         align-items: center;
-        margin-left: 26px;
+        margin-left: 20px;
     }
 
     .pointer {
@@ -158,7 +171,7 @@
     .submit-button {
         position: fixed;
         bottom: 20px;
-        right: 20px;
+        right: 21px;
         margin-left: 0;
         width: auto;
         z-index: 2;
@@ -178,7 +191,7 @@
     margin: auto;
     margin-bottom: 136px;
     position: relative;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 @media (max-width: 576px) {
@@ -187,7 +200,7 @@
         width: 360px;
         position: relative;
         margin: auto;
-        /* border: 1px solid black; */
+        border: 1px solid black;
         margin-bottom: 259px;
 
     }
@@ -483,12 +496,9 @@
 @media (max-width: 576px) {
     .mob-filter {
         display: flex;
-        width: 360px;
-        margin: auto;
         height: 181px;
-        /* border: 1px solid black; */
+        border: 1px solid black;
         position: relative;
-        justify-content: space-between;
         align-items: center;
         justify-content: center;
     }

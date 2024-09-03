@@ -155,7 +155,7 @@
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 576px) {
   .header-row {
     margin: auto;
     justify-content: center;
@@ -164,8 +164,8 @@
 
   .instruction-container {
     width: 320px;
-    /* height: 750px; */
-    /* border: 1px solid black; */
+    height: 750px;
+    border: 1px solid black;
     margin: auto;
     margin-top: 34px;
     margin-bottom: 80px;
@@ -198,7 +198,7 @@
   display: block;
 }
 
-@media (max-width: 560px) {
+@media (max-width:576px) {
   .des-only {
     display: none;
   }
@@ -208,7 +208,7 @@
   display: none;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 576px) {
   .mob-only {
     display: block;
   }
@@ -217,36 +217,14 @@
     margin: auto;
   }
 
-  .header-box {
-    display: block;
-    width: 360px;
-    border: 1px solid black;
-    margin: auto;
-    text-align: center;
-  }
-
   .table {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     align-items: center;
-    /* margin-left: 0px; */
+    margin-left: 0px;
     align-items: center;
 
   }
 
-  .content-box {
-    display: block;
-    /* width: 890px; */
-    width: 360px;
-    margin: auto;
-    margin-bottom: 136px;
-    position: relative;
-    /* border: 1px solid black; */
-  }
   
-
-  /* .container-div {
-    background: #EBE9E6;
-    width: 360px;
-} */
 
 }

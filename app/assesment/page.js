@@ -5,13 +5,14 @@ import Footer from './Footer';
 import Content from './assesment_content'
 export default function Page() {
     return (
-    <>
-    <div className="container-div">
-        <Headerpage/>
-        <Content/>
-        <Footer/>
+        <><div className='container'>
+            <div className="container-div">
+                <Headerpage />
+                <Content />
+                <Footer />
 
-    </div>
-    </>
+            </div>
+        </div>
+        </>
     )
 }
