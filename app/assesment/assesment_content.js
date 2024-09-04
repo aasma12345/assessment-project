@@ -6,8 +6,8 @@ const Content = () => {
     return (
         <>
             <div className="content-box">
-                <Filter />
                 <Timers />
+                <Filter />
                 <div className="questions">
                     <Container />
                     <Container />

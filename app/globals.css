@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-body{
+body {
   margin: 0px;
 }
 
@@ -99,6 +99,7 @@ body{
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
+  line-height: 21px;
 }
 
 .click {
@@ -113,7 +114,7 @@ body{
 .button-div {
   margin-top: 39px;
   border: 2px solid #F4D150;
-  width: 130px;
+  width: 159px;
   margin: auto;
   text-decoration: none;
   color: #1F1E1C;
@@ -124,6 +125,12 @@ body{
   font-size: 18px;
   text-align: center;
   padding: 16px 0px 16px 0px;
+}
+
+@media(max-width:576px) {
+  .button-div {
+    margin-bottom: 56px;
+  }
 }
 
 .start-button {
@@ -170,7 +177,7 @@ body{
 
   .instruction-container {
     width: 320px;
-    height: 750px;
+    /* height: 750px; */
     margin: auto;
     margin-top: 34px;
     margin-bottom: 80px;
@@ -198,26 +205,6 @@ body{
   .heading-text {
     margin-top: 34px;
   }
-}
-
-.des-only {
-  display: block;
-}
-
-@media (max-width:576px) {
-  .des-only {
-    display: none;
-  }
-}
-
-.mob-only {
-  display: none;
-}
-
-@media (max-width: 576px) {
-  .mob-only {
-    display: block;
-  }
 
   .logo-text {
     margin: auto;
@@ -230,6 +217,6 @@ body{
 
   }
 
-  
+
 
 }
