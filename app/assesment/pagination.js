@@ -1,7 +1,7 @@
 import React from "react";
 const Pagination = () => {
     return (
-        <>  <div className="des-only"> 
+        <>  <div className="des-only">
             <div className="pagination ">
                 <img className="arrow-logo" src="arrowfirst.png" alt="Logo" />
                 <div className="pageNo">1</div>
@@ -14,7 +14,7 @@ const Pagination = () => {
                 <div className="pageNo">8</div>
                 <img className="arrow-logo" src="arrow.png" alt="Logo" />
             </div>
-            </div>
+        </div>
             <div className="mob-only">
                 <div className='pagination '>
                     <div> <img src="arrow1.png" className='pageNo previous' /></div>

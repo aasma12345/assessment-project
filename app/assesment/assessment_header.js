@@ -5,18 +5,22 @@ function Headerpage() {
         <>  <div className='des-only'>
             <div className="headerrow ">
                 <div className='header-box '>
-                    <div className='logo-text'>
-                        <img className="logo" src="Logo Grp.png" alt="Logo" />
-                        <p className="header-text">QA</p>
-                    </div>
-                    <div className='table'>
-                        <Pagination />
+                    <div className='logo-pagination'>
+                        <div className='logo-text'>
+                            <img className="logo" src="Logo Grp.png" alt="Logo" />
+                            <p className="header-text">QA</p>
+                        </div>
+
+                        <div className='table'>
+                            <Pagination />
+                        </div>
                     </div>
                     <div className="sumbit-button-div">
                         <a href="/submission" className='submit-button'>Submit</a>
                     </div>
-
                 </div>
+
+
             </div>
         </div>
 
