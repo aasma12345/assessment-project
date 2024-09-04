@@ -1,15 +1,15 @@
-import Header from "./header";
-import './style.css';
-import Footer from "./footer";
-import Score from "./score"; 
-export default function Page() {
+import React from 'react'
+import "./style.css";
+import Header from './header';
+import Score from './score';
+import Footer from '../Footer';
+function page(){
     return (
-        <>
-            <div className="container">
-                <Header />
-                <Score/>
-                <Footer />
-            </div>
-        </>
+        <div>
+            <Header />
+            <Score/>
+            <Footer/>
+        </div>
     )
 }
+export default page;

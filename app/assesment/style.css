@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 body{
     background: #EBE9E6;
     margin: 0px;
@@ -128,7 +130,7 @@ body{
         width: 30px;
         background: #4C4B49;
         color: #EBE9E6;
-        border: 1px solid black;
+        border: 1px solid #4C4B49;
 
     }
 
@@ -560,7 +562,7 @@ body{
         margin-top: 3px;
     }
 
-    git .one {
+    .one {
         margin-top: 0px;
         width: 16px;
     }
