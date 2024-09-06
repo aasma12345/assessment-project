@@ -15,7 +15,7 @@ function Headerpage() {
                             <Pagination />
                         </div>
                     </div>
-                    <div className="sumbit-button-div">
+                    <div className="submit-button-div">
                         <a href="/submission" className='submit-button'>Submit</a>
                     </div>
                 </div>

@@ -2,24 +2,9 @@ const Filter = () => {
     return (
         <>
             <div className="filter">
-                <div className="mob-filter">
-                    <div className="filter-button">
-                        <div className="filter-line">
-                            <div className="line one"></div>
-                            <div className="line two"></div>
-                            <div className="line three"></div>
-                        </div>
-                        <div className="filter-text">filters</div>
-                    </div>
-                </div>
                 <div className="filter-div">
 
-
-
-
                     <div className="filter-heading">filters</div>
-
-
                     <div className="filter-score">Question Score</div>
                     <div className="box">
                         <div className="filter-all">All</div>
@@ -34,7 +19,7 @@ const Filter = () => {
                         <div className="attempt">Unattempted(37)</div>
                     </div>
                 </div>
-            </div>
+            </div >
 
 
 
