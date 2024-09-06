@@ -10,7 +10,7 @@ function Headerpage() {
                             <img className="logo" src="Logo Grp.png" alt="Logo" />
                             <p className="header-text">QA</p>
                         </div>
-                        <div className='top'></div>
+    
                         <div className='table'>
                             <Pagination />
                         </div>
