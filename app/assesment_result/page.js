@@ -1,15 +1,23 @@
 import React from 'react'
-import "./style.css";
+import "./score.css";
+import './correct.css';
 import Header from './header';
 import Score from './score';
 import Footer from '../Footer';
-function page(){
+import Correct from './correct';
+function page() {
     return (
-        <div>
+        <>
             <Header />
-            <Score/>
-            <Footer/>
-        </div>
+            <div className='result'>
+
+                <Score />
+                <div className='content-box'>
+                    <Correct />
+                </div>
+            </div>
+            <Footer />
+        </>
     )
 }
 export default page;

@@ -42,6 +42,10 @@ const Score = () => {
           </div>
         </div>
       </div>
+      <div className='middle-box'>
+      <div className='score-check'>Check Your Answers</div>
+      </div>
+      <div className='border-bottom'></div>
     </>
   );
 };

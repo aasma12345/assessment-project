@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #EBE9E6;
+}
+
+.result {
+    width: 625px;
+    margin: auto;
+}
+
+.content-box {
+
+    width: 625px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+/* 
+@media (max-width: 576px) {
+    .content-box {
+        display: block;
+        width: 360px;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 259px;
+        position: relative;
+
+    }
+
+} */
+
+
+
+/* @media (max-width: 576px) {
+    .questions {
+        display: block;
+        width: 100%;
+        border: 2px solid blue;
+        margin: auto;
+        position: relative;
+    }
+} */
+
+
+.question-content {
+    width: 560px;
+    margin-top: 30px;
+    margin: auto;
+    padding: 40px;
+    background: #F9F7F2;
+    border-radius: 12px;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 576px) {
+    .question-content {
+        width: 320px;
+        /* border: 2px solid blue; */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+
+    }
+
+
+}
+
+.question {
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+
+.options {
+    margin-top: 28px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+}
+
+.circles {
+    width: 20px;
+    height: 20px;
+}
+
+.question-box {
+    display: flex;
+    margin-top: 12px;
+}
+
+.option {
+    margin-left: 16px;
+    color: #4C4B49;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.option-text {
+    margin-left: 16px;
+    color: #4C4B49;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.question-num {
+    width: 595px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-style: normal;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .question-num {
+        width: 315px;
+        /* border: 2px solid blue; */
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+}
+
+.tick-png {
+    width: 28px;
+    height: 28px;
+}
+
+.circle-minus {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    background: #4C4B49;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 24px;
+    border: 1px solid white;
+}
+
+.numbers {
+    width: 20px;
+    height: 22px;
+    color: #1F1E1C;
+    margin-left: 16px;
+    font-family: Inter;
+
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.filtr-correct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
