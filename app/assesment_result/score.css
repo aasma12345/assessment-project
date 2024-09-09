@@ -1,3 +1,4 @@
+
 .score-form {
     width: 625px;
     height: auto;
@@ -6,20 +7,37 @@
     border: 1px solid #8F887C;
     margin: auto;
 }
+@media(max-width:576px) {
+    .score-form {
+        width: 320px;
+        /* border:1px solid red; */
+        margin: auto;
+    }
+    
+}
 
 .score-div {
+    border-radius: 12px;
     margin: auto;
     display: flex;
     width: 542px;
-    height: 165px;
+    height: 162px;
     background: #4C4B49;
     align-items: center;
     justify-content: space-between;
 }
+@media(max-width:576px) {
+    .score-div{
+        width: 319px;
+        height: 218px;
+        display: block;
+        margin: auto;
+        /* border:1px solid red; */
+    }
+}
 
 .total {
     width: 84px;
-    /* border: 1px solid black; */
     height: 55px;
     color: #F9F7F2;
     text-align: center;
@@ -29,10 +47,17 @@
     font-weight: 500;
     line-height: normal;
 }
+@media(max-width:576px) {
+    .total{
+        margin: auto;
+        margin-top: 18px;
+        /* border:1px solid red; */
+        width: 112px;
+    }
+}
 
 .your-score {
-    color: var(--Light-b, #F9F7F2);
-    /* tx bold */
+    color: #F9F7F2;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
@@ -46,8 +71,34 @@
     height: 55px;
     /* border: 1px solid black; */
 }
+@media(max-width:576px) {
+    .scores{
+        width: 268px;
+        height: 83px;
+        /* border:1px solid red; */
+        margin: auto;
+        margin-top: 29px;
+    }
+    .correct{
+        margin-left: 20px;
+    }
+    .wrong{
+        margin-left: 20px;
+    }
+}
+
 
 .texted {
+    /* border: 1px solid black; */
+    color: #F9F7F2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 8px;
+}
+.texted1{
     /* border: 1px solid black; */
     color: #F9F7F2;
     font-family: Inter;
@@ -62,13 +113,36 @@
 .unatemp {
     display: flex;
 }
+@media(max-width:576px) {
+    .unatemp{
+        display: block;
+        
+    }
+    .texted{
+        text-align: center;
+    }
+}
+
+
 
 .worg {
     display: flex;
 }
+@media(max-width:576px) {
+    .worg{
+        display: block;
+        
+    }
+}
 
 .correted {
     display: flex;
+}
+@media(max-width:576px) {
+    .correted{
+        display: block;
+        
+    }
 }
 
 .stand-line {
@@ -79,6 +153,12 @@
     margin-left: 33px;
     margin-right: 33px;
 }
+@media(max-width:576px) {
+    .stand-line{
+        display: none;
+    }
+}
+
 
 /* .wro-img{
     margin: auto;
@@ -92,17 +172,17 @@
 }
 
 .score-check {
-    width: 400px;
+    /* width: 400px; */
     color:  #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 .middle-box{
-    width: 625px;
+    /* width: 625px; */
     margin: auto;
     margin-top: 67px;
 }
@@ -111,4 +191,9 @@
     margin-top: 27px;
     width: 621px;
     border: 2px solid  #777671;
+}
+@media(max-width:576px) {
+    .border-bottom{
+        width: 320px;
+    }
 }

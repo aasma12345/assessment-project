@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Score = () => {
+const Scores = () => {
   return (
     <>
       <div className="score-form">
@@ -15,7 +15,7 @@ const Score = () => {
                 <img className="un-img" src="unattempt.png" alt="Logo" />
               </div>
               <div className="unatemp">
-                <div className="texted">Unattempted:</div>
+                <div className="texted1">Unattempted:</div>
                 <div className="texted">3</div>
               </div>
             </div>
@@ -25,7 +25,7 @@ const Score = () => {
                 <img className="cor-img" src="Tick.png" alt="Logo" />
               </div>
               <div className="correted">
-                <div className="texted">Correct:</div>
+                <div className="texted1">Correct:</div>
                 <div className="texted">35</div>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Score = () => {
                 <img className="wro-img" src="wrong.png" alt="Logo" />
               </div>
               <div className="worg">
-                <div className="texted">Wrong:</div>
+                <div className="texted1">Wrong:</div>
                 <div className="texted">2</div>
               </div>
             </div>
@@ -50,4 +50,4 @@ const Score = () => {
   );
 };
 
-export default Score;
+export default Scores;
