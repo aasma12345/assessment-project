@@ -2,7 +2,7 @@ import React from 'react';
 
 const Scores = () => {
   return (
-    <>
+    <><div className='chek'>
       <div className="score-form">
         <div className="score-div">
           <div className="total score">
@@ -46,6 +46,7 @@ const Scores = () => {
       <div className='score-check'>Check Your Answers</div>
       </div>
       <div className='border-bottom'></div>
+      </div>
     </>
   );
 };

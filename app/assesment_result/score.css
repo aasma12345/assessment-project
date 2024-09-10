@@ -1,4 +1,8 @@
-
+.chek{
+    width: 625px; 
+    /* border: 1px solid black; */
+    margin: auto;
+}
 .score-form {
     width: 625px;
     height: auto;
@@ -12,6 +16,9 @@
         width: 320px;
         /* border:1px solid red; */
         margin: auto;
+    }
+    .chek{
+        width: 320px;
     }
     
 }
@@ -94,7 +101,7 @@
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 150%;
     margin-top: 8px;
 }
@@ -104,7 +111,7 @@
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 150%;
     margin-top: 8px;
 }
