@@ -497,12 +497,13 @@ body {
 
 .timer-inside {
     display: flex;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background: #F9F7F2;
+    box-shadow: inset 0px 6px 4px -1px rgba(0, 0, 0, 0.25);
 }
 .filter-text{
     display: none;
@@ -520,7 +521,7 @@ body {
 
     .timer-div {
         width: 150px;
-        height: 120px;
+        height: 150px;
         position: absolute;
         margin-left: 20px;
 
@@ -538,8 +539,8 @@ body {
 
     .timer-inside {
         display: flex;
-        width: 110px;
-        height: 110px;
+        width: 120px;
+        height: 120px;
         padding: 0px 0.896px 0.237px 0.896px;
         justify-content: center;
         align-items: center;
@@ -549,7 +550,7 @@ body {
     }
 
     .dot {
-        color: var(--Error, #E68086);
+        color:  #E68086;
         font-family: Inter;
         font-size: 18px;
         font-style: normal;
