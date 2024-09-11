@@ -111,10 +111,14 @@ body {
 .ul {
   padding-left: 20px;
 }
+.button-div{
+  width: 163px;
+  margin:auto;
+  
+}
 
 
-.button-div {
-  margin-top: 39px;
+.start-button {
   border: 2px solid #F4D150;
   width: 159px;
   margin: auto;
@@ -126,21 +130,22 @@ body {
   font-family: Inter;
   font-size: 18px;
   text-align: center;
-  padding: 16px 0px 16px 0px;
+  padding: 16px 35px 16px 35px;
+
 }
 
-@media(max-width:576px) {
+/* @media(max-width:576px) {
   .button-div {
     margin-bottom: 56px;
   }
-}
+} */
 
-.start-button {
+/* .start-button {
   text-decoration: none;
   color: #1F1E1C;
   font-family: Inter;
   font-size: 18px;
-}
+} */
 
 .footer-row {
   margin-top: 143px;

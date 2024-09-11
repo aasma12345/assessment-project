@@ -181,11 +181,12 @@ body {
 }
 
 
-.submit-button {
+.submit-button{
     border: 2px solid #F4D150;
     border-radius: 4px;
     padding: 16px 35px;
     width: 130px;
+    text-align: centers;
     text-decoration: none;
     color: #1F1E1C;
     background-color: #FEEEB4;
@@ -195,6 +196,7 @@ body {
     margin-top: 5px;
     display: flex;
 }
+
 
 
 
