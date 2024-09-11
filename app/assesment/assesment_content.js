@@ -7,9 +7,9 @@ const Content = () => {
         <>
             <div className="content-box">
                 <div className="timer-filter">
-                    <div><Timers /></div>
-                    <div><Filter_button /></div>
-                    <div className="hide"><Filter /></div>
+                    <div className="mob-timer"><Timers /></div>
+                    <div className="mobile-filter"><Filter_button /></div>
+                    <div className="des-only"><Filter /></div>
                 </div>
                 <div className="questions">
                     <Container />
