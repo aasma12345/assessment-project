@@ -224,9 +224,8 @@ body {
 @media (max-width: 576px) {
     .content-box {
         display: block;
-        width: 360px;
+        width: 320px;
         margin: auto;
-        /* border: 1px solid black; */
         margin-bottom: 259px;
         position: relative;
 
