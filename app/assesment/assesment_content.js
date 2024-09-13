@@ -7,7 +7,7 @@ const Content = () => {
         <>
             <div className="content-box">
                 <div className="timer-filter">
-                    <div className="mob-timer"><Timers /></div>
+                    <Timers />
                     <div className="mobile-filter"><Filter_button /></div>
                     <div className="des-only"><Filter /></div>
                 </div>

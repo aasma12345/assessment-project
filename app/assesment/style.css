@@ -31,20 +31,10 @@ body {
     .header-box {
         display: block;
         width: 100%;
-        text-align: center;
-        /* border: none; */
         margin: auto;
-        background: var(--Light-a, #FCFAFA);
         box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
-        height: 146px;
+        height: auto;
     }
-
-    .headerrow {
-        background: #FCFAFA;
-        /* box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10); */
-        height: 146px;
-    }
-
 
 }
 
@@ -90,13 +80,9 @@ body {
 @media (max-width:576px) {
     .pagination {
         display: flex;
-        /* width: 320px; */
-        /* border: 1px solid black; */
         justify-content: center;
         text-align: center;
-        margin: auto;
-        /* margin-top:40px; */
-
+        margin: auto
     }
 }
 
@@ -105,7 +91,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 @media (max-width: 576px) {
@@ -139,7 +124,6 @@ body {
 
 @media(max-width: 576px) {
     .dotespace {
-        /* border: 2px solid #E0DFDA; */
         width: 10px;
         height: 30px;
         display: flex;
@@ -373,7 +357,7 @@ body {
     border: 1px dashed #777671;
     background: #F9F7F2;
     border-radius: 12px;
-    margin-top: 153px;
+    /* margin-top: 20px; */
 }
 
 .filter-div {
@@ -485,8 +469,8 @@ body {
 
 .timer {
     display: flex;
-    width: 152px;
-    height: 152px;
+    width: 142px;
+    height: 142px;
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
@@ -498,8 +482,8 @@ body {
 
 .timer-inside {
     display: flex;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -512,30 +496,25 @@ body {
 
 
 .timer-div {
-    width: 154px;
-    position: absolute;
-    margin-left: 57px;
-    top: 20px;
+    width: 150px;
+    position: relative;
+    top: -40px;
+    margin:auto;
 }
 
 @media (max-width: 576px) {
 
     .timer-div {
-        width: 150px;
-        height: 150px;
-        /* position: absolute; */
+        width: 101px;
+        top:1px;
         margin-left: 0px;
 
 
     }
-    .mob-timer{
-        width: 170px;
-
-    }
 
     .timer {
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         background: conic-gradient(#EBE9E6 0deg 160deg, #E68086 160deg 360deg);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -545,8 +524,8 @@ body {
 
     .timer-inside {
         display: flex;
-        width: 120px;
-        height: 120px;
+        width: 85px;
+        height: 85px;
         padding: 0px 0.896px 0.237px 0.896px;
         justify-content: center;
         align-items: center;
@@ -724,7 +703,8 @@ body {
         align-items: center;
     }
     .mobile-filter{
-        margin-top: 70px;
+        display: flex;
+        align-items: center;
     }
 
     .filter-button {
