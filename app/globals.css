@@ -119,16 +119,19 @@ body {
   background-color: #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
   text-align: center;
-  line-height: 54px;
 
 }
 
 
 .start-button {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #1F1E1C;
   font-family: Inter;
   font-size: 18px;
+  padding: 16px 10px;
+
   
 }
 
