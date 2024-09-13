@@ -114,6 +114,7 @@ body {
  .button-div{
   width: 163px;
   height: 54px;
+  border-radius: 4px;
   margin:auto;
   border: 2px solid #F4D150;
   background-color: #FEEEB4;
