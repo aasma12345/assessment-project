@@ -11,9 +11,6 @@ body {
 
 .headerrow {
     background: #FCFAFA;
-    /* border: 1px solid black; */
-    margin: auto;
-    /* height: 72px; */
 }
 
 .header-box {
@@ -499,15 +496,12 @@ body {
         border-radius: 50%;
         background: conic-gradient(#EBE9E6 0deg 160deg, #E68086 160deg 360deg);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        /* margin-top: 15px; */
-
     }
 
     .timer-inside {
         display: flex;
         width: 84px;
         height: 84px;
-        padding: 0px 0.896px 0.237px 0.896px;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
