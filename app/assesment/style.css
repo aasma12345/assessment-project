@@ -105,7 +105,6 @@ body {
     height: 30px;
     font-size: 14px;
     border-radius: 50%;
-
     line-height: 26px;
 }
 
@@ -227,7 +226,7 @@ body {
     .submit-button-div {
         position: fixed;
         bottom: 20px;
-        right: 8px;
+        right: 23px;
         margin-left: 0;
         width: auto;
         z-index: 2;
