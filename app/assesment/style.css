@@ -185,10 +185,12 @@ body {
 
 .content-box {
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: auto;
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 136px;
 
 }
 
