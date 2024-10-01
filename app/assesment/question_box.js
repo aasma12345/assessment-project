@@ -1,9 +1,20 @@
 const Questioncomponent = ({ id, displayquestion }) => {
+    let score = 0;
+    if (displayquestion.difficulty === "easy") {
+        score=10;
+    }
+    else if (displayquestion.difficulty === "medium") {
+        score=15;
+    }
+    else if (displayquestion.difficulty === "hard") {
+        score=20;
+    }
+
     return (
         <>
             <div className="question-num">
-                <div className="num">Question 1</div>
-                <div className="score-num">Score +1</div>
+                <div className="num">Question {id}</div>
+                <div className="score-num">Score +{score}</div>
             </div>
             <div className="question-content">
                 <div className="question">
